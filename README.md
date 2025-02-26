@@ -18,9 +18,9 @@
    ```
 3. Configure `application.properties`:
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/quiz_db
-   spring.datasource.username=root
-   spring.datasource.password=root
+   spring.datasource.url=jdbc:oracle:thin:@localhost:1521:XE
+   spring.datasource.username=System
+   spring.datasource.password=tiger
    spring.jpa.hibernate.ddl-auto=update
    ```
 4. Run the project:
